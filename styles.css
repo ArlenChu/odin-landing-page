@@ -34,3 +34,44 @@ a {
     font-size: 18px;
     justify-content: center;
 }
+
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.intro {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 128px 256px;
+    gap: 64px;
+}
+
+img {
+    width: 600px;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    padding-bottom: 8px;
+}
+
+.sub-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #3882f6;
+  font-size: 18px;
+  color: #f9faf8;
+  flex: 0 0 auto ;
+}
