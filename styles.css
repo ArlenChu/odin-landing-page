@@ -35,11 +35,6 @@ a {
     justify-content: center;
 }
 
-.content {
-    flex: 1;
-    display: flex;
-}
-
 .intro {
     flex: 1 1 100%;
     display: flex;
@@ -69,9 +64,95 @@ img {
 button {
   padding: 8px 16px;
   border-radius: 10px;
-  border: none;
-  background: #3882f6;
   font-size: 18px;
   color: #f9faf8;
-  flex: 0 0 auto ;
+  background: #3882f6;
+}
+
+.button-1 {
+    border: none;
+}
+
+.information {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.text {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 200px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+}
+
+.sign-up {
+    padding: 100px 200px;
+}
+
+.banner {
+    background-color: #3882f6;
+    padding: 50px 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-2 {
+    border: 2px solid #f9faf8;
+}
+
+.banner-slogan {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.banner-instructions {
+    font-size: 18px;
+    color: #f9faf8;
 }
